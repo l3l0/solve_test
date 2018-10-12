@@ -1,4 +1,4 @@
-# Solven test
+# Solven test [![Build Status](https://travis-ci.org/l3l0/solve_test.svg?branch=master)](https://travis-ci.org/l3l0/solve_test)
 
 Simple test for solven.
 
