@@ -16,4 +16,4 @@ just run composer, phpspec and behat using docker.
 Just calculate loan balance for given day.
 This app is basically one main class + some VO and exceptions
 
-Please check (behat feature)[features/ksiegowanie_pozyczek.feature] and other tests.
+Please check https://github.com/l3l0/solve_test/blob/master/features/ksiegowanie_pozyczek.feature
