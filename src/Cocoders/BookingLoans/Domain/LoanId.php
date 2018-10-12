@@ -28,6 +28,6 @@ final class LoanId
 
     public static function generateNew(): LoanId
     {
-        return new LoanId((string) Uuid::uuid4());
+        return new LoanId(Uuid::uuid4()->toString());
     }
 }

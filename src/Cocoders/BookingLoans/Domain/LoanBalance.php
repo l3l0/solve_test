@@ -82,7 +82,7 @@ class LoanBalance
     }
 
     /**
-     * @param Item[] $item
+     * @param Item[] $balance
      * @return Item[]
      */
     private function addDailyCapitalInterestBalanceForEachDayTo(int $day, array $balance): array
@@ -94,7 +94,7 @@ class LoanBalance
     }
 
     /**
-     * @param Item[]
+     * @param Item[] $balance
      * @return Money
      */
     private function sumBalance(array $balance): Money
