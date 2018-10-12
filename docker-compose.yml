@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  application:
+    build: ./docker
+    working_dir: /var/www/solven_test
+    volumes:
+      - .:/var/www/solven_test
+      - ./docker/php.ini:/usr/local/etc/php/php.ini

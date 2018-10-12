@@ -1,0 +1,23 @@
+{
+    "name": "solven_test",
+    "license": "MIT",
+    "require": {
+      "php": "~7.3.0",
+      "ext-intl": "*",
+      "moneyphp/money": "^3.1",
+      "ramsey/uuid": "^3.8"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~5.0.0@dev",
+        "symfony/console": "~4.1.0",
+        "behat/behat": "~3.5.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cocoders\\": "src/Cocoders/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
